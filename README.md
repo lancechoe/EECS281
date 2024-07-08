@@ -1,4 +1,4 @@
-** EECS 281 (2023 FALL) **
+** EECS 281 (2023 WINTER) **
 
 Data Structures and Algorithms
 
