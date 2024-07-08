@@ -1,0 +1,25 @@
+CREATE table 2 string int name age
+INSERT INTO table 10 ROWS
+ANA 3
+BNA 4
+CNA 8
+DNA 9
+ENA 1
+FNA 2
+GNA 6
+HNA 7
+INA 5
+JNA 1
+PRINT FROM table 2 name age WHERE age < 4
+PRINT FROM table 2 name age WHERE age = 4
+PRINT FROM table 2 name age WHERE age > 4
+GENERATE FOR table bst INDEX ON age
+PRINT FROM table 2 name age WHERE age < 4
+PRINT FROM table 2 name age WHERE age > 4
+PRINT FROM table 2 name age WHERE age = 4
+GENERATE FOR table hash INDEX ON age
+PRINT FROM table 2 name age WHERE age = 3
+PRINT FROM table 2 name age WHERE age = 6
+PRINT FROM table 2 name age WHERE age = 9
+REMOVE table
+QUIT

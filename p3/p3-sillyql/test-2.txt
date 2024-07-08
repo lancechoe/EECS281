@@ -1,0 +1,19 @@
+CREATE table 3 string string bool word word2 T/F
+INSERT INTO table 4 ROWS
+alpha alpha true
+beta alpha false
+ceta alpha true
+delta alpha false
+CREATE table2 3 string string bool word word2 T/F
+INSERT INTO table2 4 ROWS
+ela beta true
+gla beta false
+hla beta true
+ila beta false
+JOIN table AND table2 WHERE T/F = T/F AND PRINT 4 word 1 word2 1 word 2 word2 2
+JOIN table2 AND table WHERE T/F = T/F AND PRINT 4 word 1 word2 1 word 2 word2 2
+JOIN table AND table2 WHERE T/F = T/F AND PRINT 4 word 2 word2 2 word 1 word2 1
+JOIN table2 AND table WHERE T/F = T/F AND PRINT 4 word 2 word2 2 word 1 word2 1
+REMOVE table
+REMOVE table2
+QUIT

@@ -1,0 +1,34 @@
+CRETE table 2 string int name age
+INSET INTO table 4 ROWS
+Apple 10
+Banana 20
+Cat 18
+Dad 45
+GENERATE FOR table bst INDEX ON age
+GENERATE FOR table bst INDEX ON name
+INSET INTO table 4 ROWS
+Era 104
+Apple 203
+Cat 128
+Hra 3
+PRNT FROM table 2 name age ALL
+JOIN table AND table WHERE name = name AND PRINT 3 name 1 name 2 name 1
+PRNT FROM table 2 name age ALL
+DEETE FROM table WHERE age > 19
+PRINT FROM table 2 name age ALL
+GENERATE FOR table bst INDEX ON age
+GENERATE FOR table hash INDEX ON age
+INSET INTO table 4 ROWS
+Banana 104
+Dad 203
+Catff 128
+Hra 3
+PRNT FROM table 2 name age ALL
+JOIN table AND table WHERE name = name AND PRINT 3 name 1 name 2 name 1
+PRNT FROM table 2 name age ALL
+PRNT FROM table 2 name age ALL
+PRNT FROM table 2 name age ALL
+DEETE FROM table WHERE age > 19
+PRINT FROM table 2 name age ALL
+REOVE table
+QUIT

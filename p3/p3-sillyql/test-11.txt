@@ -1,0 +1,13 @@
+CREATE table 2 string int name age
+INSERT INTO table 4 ROWS
+Apple 10
+Banana 20
+Cat 18
+Dad 45
+GENERATE FOR table bst INDEX ON age
+PRINT FROM table 2 name age ALL
+DELETE FROM table WHERE age > 19
+PRINT FROM table 2 name age ALL
+REMOVE table
+NOPE
+QUIT

@@ -1,0 +1,20 @@
+CREATE table 3 string int bool student_name age is_smart
+INSERT INTO table 4 ROWS
+TP 4 true
+EI 9 true
+DQ 5 true
+BE 10 true
+PRINT FROM table 3 is_smart age student_name ALL
+DELETE FROM table WHERE student_name = OI
+PRINT FROM table 2 is_smart student_name ALL
+INSERT INTO table 3 ROWS
+TP 2 true
+OI 10 true
+NK 3 true
+PRINT FROM table 3 age is_smart student_name ALL
+DELETE FROM table WHERE age = 10
+PRINT FROM table 3 student_name age is_smart ALL
+DELETE FROM table WHERE is_smart = true
+PRINT FROM table 3 student_name age is_smart ALL
+REMOVE table
+QUIT

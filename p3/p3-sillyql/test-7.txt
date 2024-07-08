@@ -1,0 +1,28 @@
+CREATE table 3 int string int num word ber
+INSERT INTO table 10 ROWS
+1 faea 5
+2 daea 1
+3 geaa 4
+4 baea 3
+5 eaea 2
+6 aeaa 7
+7 ceaa 6
+8 ppaa 5
+9 kkaa 4
+10 ooqq 3
+PRINT FROM table 3 num word ber WHERE num > 8
+GENERATE FOR table hash INDEX ON ber
+PRINT FROM table 3 num word ber WHERE num > 8
+PRINT FROM table 3 num word ber WHERE num > 8
+GENERATE FOR table bst INDEX ON ber
+PRINT FROM table 3 num word ber WHERE num > 8
+PRINT FROM table 3 num word ber WHERE ber < 4
+GENERATE FOR table hash INDEX ON ber
+PRINT FROM table 3 num word ber WHERE ber < 4
+GENERATE FOR table bst INDEX ON ber
+PRINT FROM table 3 num word ber WHERE ber < 4
+PRINT FROM table 3 num word ber WHERE word > c
+GENERATE FOR table bst INDEX ON word
+PRINT FROM table 3 num word ber WHERE word > c
+REMOVE table
+QUIT

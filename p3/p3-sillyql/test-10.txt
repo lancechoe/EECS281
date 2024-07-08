@@ -1,0 +1,28 @@
+CREATE table 1 string num
+INSERT INTO table 5 ROWS
+123
+456
+789
+12
+34
+DELETE FROM table WHERE num > 112
+PRINT FROM table 1 age ALL
+CREATE table2 3 string string string T/F age score
+INSERT INTO table2 4 ROWS
+true 11 431.3 
+false 22 139.1 
+true 33 0 
+false 44 12
+PRINT FROM table2 3 score age T/F ALL
+DELETE FROM table2 WHERE age > true
+PRINT FROM table2 3 score age T/F ALL
+DELETE FROM table2 WHERE score < 53
+PRINT FROM table2 3 score age T/F ALL
+DELETE FROM table2 WHERE T/F > false
+PRINT FROM table2 3 score age T/F ALL
+DELETE FROM table2 WHERE age = 22
+PRINT FROM table2 3 score age T/F ALL
+REMOVE table2
+REMOVE table
+QUIT
+

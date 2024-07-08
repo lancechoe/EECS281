@@ -1,0 +1,34 @@
+CREATE table 4 bool int string double T/F num name score
+CREATE table2 4 bool int string double T/F num name score
+CREATE table3 4 bool int string double T/F num name score
+GENERATE FOR table hash INDEX ON T/F
+GENERATE FOR table hash INDEX ON num
+GENERATE FOR table3 hash INDEX ON name
+GENERATE FOR table hash INDEX ON score
+GENERATE FOR table2 hash INDEX ON num
+GENERATE FOR table2 hash INDEX ON name
+GENERATE FOR table2 hash INDEX ON score
+JOIN table AND table WHERE name = name AND PRINT 3 name 1 name 2 name 1
+JOIN table AND table2 WHERE name = name AND PRINT 3 T/F 1 num 2 score 1
+JOIN table AND table3 WHERE name = name AND PRINT 3 num 1 name 2 T/F 1
+PRINT FROM table 2 name num ALL
+PRINT FROM table 1 name WHERE name > nala
+JOIN table2 AND table WHERE name = name AND PRINT 3 name 1 name 2 name 1
+JOIN table2 AND table2 WHERE name = name AND PRINT 3 T/F 1 num 2 score 1
+JOIN table2 AND table3 WHERE name = name AND PRINT 3 num 1 name 2 T/F 1
+PRINT FROM table2 1 name WHERE name = nala
+PRINT FROM table2 1 name WHERE name < nala
+JOIN table3 AND table WHERE name = name AND PRINT 3 name 1 name 2 name 1
+JOIN table3 AND table2 WHERE name = name AND PRINT 3 T/F 1 num 2 score 1
+JOIN table3 AND table3 WHERE name = name AND PRINT 3 num 1 name 2 T/F 1
+PRINT FROM table3 2 name num ALL
+PRINT FROM table3 1 name WHERE name = nala
+PRINT FROM table3 1 name WHERE name > nala
+GENERATE FOR table bst INDEX ON T/F
+GENERATE FOR table bst INDEX ON name
+GENERATE FOR table3 bst INDEX ON score
+REMOVE table3
+GENERATE FOR table2 bst INDEX ON T/F
+GENERATE FOR table2 bst INDEX ON num
+GENERATE FOR table2 bst INDEX ON name
+QUIT

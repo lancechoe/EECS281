@@ -1,0 +1,32 @@
+CREATE test 4 string double int bool str pr num flag
+INSERT INTO test 12 ROWS
+alpha 45.6 790 true
+beta 65.4 911 false
+ceta 11.3 12 true
+delta 4.3 23 false
+ela 5.2 34 true 
+fla 6.3 45 false
+gate 43.1 56 true
+hoa 12.1 25 false
+lfu 12.3 21 true
+luuu 42.1 65 false
+gigg 7.3 74 true
+gsy 22.2 100 false
+DELETE FROM test WHERE str > u
+DELETE FROM test WHERE str < ce
+DELETE FROM test WHERE str = ela
+DELETE FROM test WHERE pr > 65.3
+DELETE FROM test WHERE pr < 1.4
+DELETE FROM test WHERE pr = 5.2
+DELETE FROM test WHERE num > 788
+DELETE FROM test WHERE num < 13
+DELETE FROM test WHERE num = 100
+DELETE FROM test WHERE flag > false
+DELETE FROM test WHERE flag < true
+INSERT INTO test 2 ROW
+bag 48.2 45 true
+cag 33.2 23 true
+DELETE FROM test WHERE flag = true
+PRINT FROM test 4 str pr num flag ALL
+REMOVE test
+QUIT

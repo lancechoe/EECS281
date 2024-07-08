@@ -1,0 +1,24 @@
+# CREATE table 3 int int int a b c
+# INSERT INTO table 3 ROWS
+CREATE table 3 bool int string bool int string
+INSERT INTO table 3 ROWS
+true 1 string
+false 1 string
+true 2 string
+CREATE table1 3 bool int string true 123 string
+INSERT INTO table 3 ROWS
+true 123 string
+false 123 string
+true 321 string
+DELETE FROM table WHERE bool = true
+DELETE FROM table WHERE string = string
+DELETE FROM table WHERE int = 1
+DELETE FROM table1 WHERE 123 = 123
+DELETE FROM table1 WHERE string = string
+DELETE FROM table1 WHERE true = true
+DELETE FROM table1 WHERE false = false
+# 1 2 3
+# 4 5 3
+# 6 7 3
+#JOIN table AND table WHERE c = c AND PRINT 2 a 1 b 2
+QUIT

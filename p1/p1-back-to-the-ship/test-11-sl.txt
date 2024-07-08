@@ -1,0 +1,19 @@
+M
+3
+4
+// Many elevators
+//level 0
+S###
+EEEE
+EEEE
+###H
+//level 1
+....
+EEEE
+EEEE
+....
+//level 2
+....
+EEEE
+EEEE
+....

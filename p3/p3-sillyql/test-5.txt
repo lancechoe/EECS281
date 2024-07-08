@@ -1,0 +1,16 @@
+CREATE table 1 string item
+INSERT INTO table 6 ROWS
+aan
+ban
+can
+dan
+ean
+fan
+PRINT FROM table 1 item WHERE item < d
+DELETE FROM table WHERE item < d
+PRINT FROM table 1 item WHERE item < d
+PRINT FROM table 1 item WHERE item = dan
+DELETE FROM test WHERE item = dan
+PRINT FROM table 1 item WHERE item = dan
+REMOVE table
+QUIT

@@ -1,0 +1,14 @@
+M
+3
+3
+//wrong col,level,row
+//level 0
+.#EH
+.E#.
+.#E.
+....
+//level 1
+.#E.
+.E#.
+....
+S...

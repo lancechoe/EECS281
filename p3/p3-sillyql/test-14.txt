@@ -1,0 +1,24 @@
+CREATE table 3 string int bool name age T/F
+INSERT INTO table 4 ROWS
+Apple 10 true
+Banana 20 true
+Cat 18 false
+Dad 45 false
+GENERATE FOR table bst INDEX ON age
+PRINT FROM table 3 name age T/F ALL
+GENERATE FOR table bst INDEX ON T/F
+PRINT FROM table 3 name age T/F ALL
+GENERATE FOR table hash INDEX ON name
+PRINT FROM table 3 name age T/F ALL
+GENERATE FOR table hash INDEX ON T/F
+PRINT FROM table 3 name age T/F ALL
+INSERT INTO table 4 ROWS
+Era 104 false
+Apple 203 true
+Cat 128 false
+Hra 3 true
+PRINT FROM table 3 name age T/F ALL
+JOIN table AND table WHERE name = name AND PRINT 3 name 1 name 2 name 1
+DELETE FROM table WHERE age > 19
+REMOVE table
+QUIT

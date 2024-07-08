@@ -1,0 +1,21 @@
+CREATE table 4 string double int bool str scr num T/F
+GENERATE FOR table bst INDEX ON str
+GENERATE FOR table bst INDEX ON str
+PRINT FROM table 2 str num ALL
+GENERATE FOR table hash INDEX ON str
+GENERATE FOR table hash INDEX ON str
+PRINT FROM table 2 str num ALL
+INSERT INTO table 2 ROWS
+man 47 1 true
+woman 63 2 false
+PRINT FROM table 2 str num ALL
+JOIN table AND table WHERE str = str AND PRINT 2 str 1 str 2
+INSERT INTO table 2 ROWS
+man 4.56 3 true
+woman 6.54 4 false
+JOIN table AND table WHERE str = str AND PRINT 1 str 1
+DELETE FROM table WHERE str = woman
+JOIN table AND table WHERE str = str AND PRINT 3 str 1 str 2 num 1
+PRINT FROM table 2 str num ALL
+REMOVE table
+QUIT

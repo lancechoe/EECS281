@@ -1,0 +1,24 @@
+CREATE table 3 int int int a b c
+CREATE table 3 int int int c b a
+CREATE table2 3 int int int a b c
+CREATE table3 3 int int int a b c
+CREATE table4 3 int int int a b c
+CREATE table5 3 string string string a b c
+INSERT INTO table 1 ROWS
+1 2 3
+INSERT INTO table 1 ROWS
+1 2 3
+INSERT INTO table2 1 ROWS
+3 2 1
+INSERT INTO table5 1 ROWS
+a b c
+PRINT FROM table 3 a b c ALL
+PRINT FROM table 2 b c ALL
+PRINT FROM table 1 a ALL
+DELETE FROM table WHERE a = 1
+DELETE FROM table WHERE a = 2
+DELETE FROM table WHERE a = 3
+DELETE FROM table5 WHERE a = a
+DELETE FROM table5 WHERE c = c
+DELETE FROM table5 WHERE b = b
+QUIT

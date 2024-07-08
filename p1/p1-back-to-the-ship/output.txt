@@ -1,0 +1,11 @@
+Start in level 1, row 3, column 0
+//level 0
+.www
+.www
+.www
+Hwww
+//level 1
+eee0
+eee.
+eee.
+eee.
